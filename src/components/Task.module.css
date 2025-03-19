@@ -1,0 +1,55 @@
+.container{
+  display: flex;
+  gap:20px;
+}
+
+li{
+  display: flex
+  fl
+}
+.taskItem {
+  list-style: none;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #690a0a;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.taskItem:hover {
+  background-color: #f4f4f4;
+}
+
+/*
+.taskItem.completed {
+  text-decoration: line-through;
+  color: gray;
+}*/
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.deleteButton {
+  background-color: #944e4e;
+  color: white;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+  margin-left: 10px;
+  text-decoration: none
+}
+
+.deleteButton:hover {
+  background-color: #5f2727;
+  transform: scale(1.05);
+}
+
+.deleteButton:active {
+  transform: scale(0.95);
+}

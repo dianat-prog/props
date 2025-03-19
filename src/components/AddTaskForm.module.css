@@ -1,0 +1,24 @@
+.button {
+    color: rgb(230, 230, 243); 
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .button:hover {
+    background-color: #6c6d65;  
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+
+  form{
+    display: flex;
+    gap:10px;
+  }
